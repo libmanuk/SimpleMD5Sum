@@ -1,6 +1,4 @@
 #!/bin/bash
 
-filename="$1"
-
-echo   -n   $filename | md5sum | awk '{print $1}'
-
+echo "$1"
+md5sum "$1" > file.md5sum
