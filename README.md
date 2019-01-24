@@ -2,4 +2,4 @@
 
 Usage:
 
-$ SimpleMD5Sum.sh <filename>
+$ SimpleMD5Sum.sh filename
